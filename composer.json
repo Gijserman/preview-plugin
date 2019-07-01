@@ -1,0 +1,40 @@
+{
+    "name": "oberon/preview-plugin",
+    "description": "Preview in a headless Craft 3 setup",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "preview plugin"
+    ],
+    "support": {
+        "docs": "???",
+        "issues": "???"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oberon",
+            "homepage": "http://oberon.nl"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "oberon\\previewplugin\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Preview plugin",
+        "handle": "preview-plugin",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "???",
+        "class": "oberon\\previewplugin\\PreviewPlugin"
+    }
+}
